@@ -1,0 +1,80 @@
+
+.app .button-app{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.names{
+    background-color: #edf0f0
+}
+.names img {
+    height: 200px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.names button{
+    position: relative;
+    color: red;
+    width: 70px;
+    border-radius: 3px;
+    bottom: -5px;
+    cursor: pointer;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.names p {
+ font-size: 25px;
+ text-transform: uppercase;
+color: rgba(255, 217, 0, 0.726);
+padding-left: 5px;
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood;
+    width: 70%;
+    text-align: center;
+    
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    color: rgb(169, 169, 169);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.input-container input::placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0.363);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.player-container, .filter-input {
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
